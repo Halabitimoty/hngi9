@@ -1,0 +1,25 @@
+.profile
+{
+	width: 50%;
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	justify-content: center;
+}
+
+img#profile_img
+{
+	max-width: 30%;
+	border-radius: 100%;
+	margin: auto;
+	padding: 1.5rem;
+}
+
+#twitter
+{
+	margin: auto;
+}
+#slack
+{
+	display: none;
+}

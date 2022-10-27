@@ -1,0 +1,23 @@
+.links_btn
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.links_btn > button
+{
+	background: #EAECF0;
+	border: 1px solid #EAECF0;
+	border-radius: 8px;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.links_btn > button > a
+{
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+}

@@ -6,7 +6,7 @@ function Profile() {
 	return (
 		<div className='profile'>
 			<img src={img} alt="" id="profile_img" />
-			<div id="twitter">twiiter</div>
+			<div id="twitter">Alabi Timothy</div>
 			<div id="slack">slack</div>
 		</div>
 	)
