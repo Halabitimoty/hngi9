@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/hngi9/static/css/main.ad70c42c.css",
+    "main.js": "/hngi9/static/js/main.f2268644.js",
+    "static/media/profileImg.jpg": "/hngi9/static/media/profileImg.6431dccc1fd1a18c1ba6.jpg",
+    "index.html": "/hngi9/index.html",
+    "main.ad70c42c.css.map": "/hngi9/static/css/main.ad70c42c.css.map",
+    "main.f2268644.js.map": "/hngi9/static/js/main.f2268644.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad70c42c.css",
+    "static/js/main.f2268644.js"
+  ]
+}
