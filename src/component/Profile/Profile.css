@@ -23,3 +23,24 @@ img#profile_img
 {
 	display: none;
 }
+
+@media only screen and (max-width: 1000px) {
+
+	.profile
+	{
+		width: 75%;
+		display: flex;
+		margin: auto;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	img#profile_img
+	{
+		max-width: 50%;
+		border-radius: 100%;
+		margin: auto;
+		padding: 1.5rem;
+	}
+
+}
