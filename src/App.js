@@ -1,6 +1,7 @@
 import React from "react";
 import Links from "./component/Links/Links";
 import Profile from "./component/Profile/Profile";
+import Footer from "./component/Footer/Footer";
 import "./App.css";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
     <div className="container">
       <Profile />
       <Links />
+      <Footer />
     </div>
   );
 }
