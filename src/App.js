@@ -1,15 +1,20 @@
 import React from "react";
-import Links from "./component/Links/Links";
-import Profile from "./component/Profile/Profile";
-import Footer from "./component/Footer/Footer";
+import HomePage from "./Pages/HomePage";
+import ContactPage from "./Pages/ContactPage";
 import "./App.css";
+import Footer from "./component/Footer/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
     <div className="container">
-      <Profile />
-      <Links />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/contact" element={<ContactPage />}></Route>
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,15 +1,18 @@
 import React from 'react'
 import '../Links/Links.css'
+import Button from '../Button/Button'
+import { Link } from 'react-router-dom';
 
 function links() {
 	return (
 		<div className='links_btn'>
-			<button id='twitter_link'><a href="https://twitter.com/home">Twitter Link</a></button>
-			<button id='btn__zuri'><a href="https://training.zuri.team/">Zuri Team</a></button>
-			<button id='books'><a href="http://books.zuri.team">Zuri Books</a></button>
-			<button id='book__python'><a href="https://books.zuri.team/">Python Books</a></button>
-			<button id='pitch'><a href="https://background.zuri.team">Background Check for Coders</a></button>
-			<button id='book__design'><a href="https://books.zuri.team/design-rules">Design Books</a></button>
+			<Button id = "twitter_link" refs = "https://twitter.com/home" name = "Twitter Link"/>
+			<Button id = "btn__zuri" refs = "https://training.zuri.team/" name = "Zuri Team"/>
+			<Button id = "books" refs = "http://books.zuri.team" name = "Zuri Books"/>
+			<Button id = "book__python" refs = "https://books.zuri.team/" name = "Python Books"/>
+			<Button id = "pitch" refs = "https://background.zuri.team" name = "Background Check for Coders"/>
+			<Button id = "book__design" refs = "https://books.zuri.team/design-rules" name = "Design Books"/>
+			<button id = "contact"><Link to="/contact">Contact Me </Link></button>
 		</div>
 	)
 }
