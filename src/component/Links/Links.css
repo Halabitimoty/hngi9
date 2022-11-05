@@ -29,3 +29,35 @@
 .social_presence > img {
   margin: 1rem;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .links_btn > button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .links_btn > button {
+    padding: 0.7rem;
+    margin: 0.7rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .links_btn > button {
+    padding: 0.8rem;
+    margin: 0.8rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
