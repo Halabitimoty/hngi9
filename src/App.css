@@ -5,20 +5,20 @@
   font-family: "Inter", sans-serif;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 425px and down) */
+@media only screen and (max-width: 425x) {
   .container {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Small devices (portrait tablets and large phones, 425px and up) */
+@media only screen and (min-width: 425px) {
   .container {
     width: 90vw;
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
   }
 }
@@ -27,7 +27,7 @@
 @media only screen and (min-width: 768px) {
   .container {
     width: 80vw;
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
   }
 }
@@ -36,7 +36,7 @@
 @media only screen and (min-width: 992px) {
   .container {
     width: 70vw;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 2rem auto auto auto;
   }
 }
@@ -45,7 +45,7 @@
 @media only screen and (min-width: 1200px) {
   .container {
     width: 50vw;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 2rem auto auto auto;
   }
 }
