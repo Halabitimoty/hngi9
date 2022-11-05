@@ -23,11 +23,9 @@
 .social_presence {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
-#git > img,
-#slack > img {
-  width: 2rem;
-  height: 2rem;
+.social_presence > img {
+  margin: 1rem;
 }

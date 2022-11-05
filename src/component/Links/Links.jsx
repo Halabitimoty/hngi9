@@ -38,8 +38,10 @@ function links() {
         <Link to="/contact">Contact Me </Link>
       </button>
       <div className="social_presence">
-        <div>
-          <a id="git" href="https://halabitimoty.github.io/hngi9/">
+        <img src={git} alt="" />
+        <img src={slack} alt="" />
+        {/* <div>
+          <a id="git" href="https://github.com/Halabitimoty">
             <img src={git} alt="" />
           </a>
         </div>
@@ -50,8 +52,8 @@ function links() {
             href="https://app.slack.com/client/T042F7V19Q8/C041S7VF5JR"
           >
             <img src={slack} alt="" />
-          </a>
-        </div>
+          </a> 
+        </div>*/}
       </div>
     </div>
   );
