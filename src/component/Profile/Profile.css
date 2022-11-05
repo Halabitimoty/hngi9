@@ -1,46 +1,83 @@
-.profile
-{
-	width: 50%;
-	display: flex;
-	margin: auto;
-	flex-direction: column;
-	justify-content: center;
+.profile {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
 }
 
-img#profile_img
-{
-	max-width: 30%;
-	border-radius: 100%;
-	margin: auto;
-	padding: 1.5rem;
+img#profile_img {
+  border-radius: 100%;
+  margin: auto;
+  padding: 1.5rem;
 }
 
-#twitter
-{
-	margin: auto;
+#twitter {
+  margin: auto;
+  color: #101828;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
 }
-#slack
-{
-	display: none;
+#slack {
+  display: none;
 }
 
-@media only screen and (max-width: 1000px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .profile {
+    width: 75%;
+    height: 30vh;
+  }
 
-	.profile
-	{
-		width: 75%;
-		display: flex;
-		margin: auto;
-		flex-direction: column;
-		justify-content: center;
-	}
+  img#profile_img {
+    max-width: 50%;
+  }
+}
 
-	img#profile_img
-	{
-		max-width: 50%;
-		border-radius: 100%;
-		margin: auto;
-		padding: 1.5rem;
-	}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .profile {
+    width: 70%;
+    height: 20vh;
+  }
 
+  img#profile_img {
+    max-width: 45%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .profile {
+    width: 60%;
+    height: 20vh;
+  }
+
+  img#profile_img {
+    max-width: 40%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .profile {
+    width: 55%;
+    height: 20vh;
+  }
+
+  img#profile_img {
+    max-width: 40%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .profile {
+    width: 40%;
+    height: 20vh;
+  }
+
+  img#profile_img {
+    max-width: 40%;
+  }
 }

@@ -1,10 +1,12 @@
-import React from 'react'
-import '../Button/Button.css'
+import React from "react";
+import "../Button/Button.css";
 
-function Button({id, refs, name}) {
+function Button({ id, refs, name }) {
   return (
-	<button id={id}><a href={refs}>{name}</a></button>
-  )
+    <button id={id}>
+      <a href={refs}>{name}</a>
+    </button>
+  );
 }
 
-export default Button
+export default Button;
