@@ -10,7 +10,7 @@ export default function App() {
     <div className="container">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/hngi9" element={<HomePage />}></Route>
           <Route path="/contact" element={<ContactPage />}></Route>
         </Routes>
         <Footer />
