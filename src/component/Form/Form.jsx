@@ -12,6 +12,19 @@ function Form() {
 
   //   console.log(formdata);
 
+  // const message = (
+  //   <p
+  //     style={{
+  //       color: "#F83F23",
+  //       fontWeight: 400,
+  //       fontSize: "14px",
+  //       lineHeight: "20px",
+  //     }}
+  //   >
+  //     Please enter a message
+  //   </p>
+  // );
+
   function handleChange(event) {
     const { name, value, type, checked } = event.target;
 
@@ -39,6 +52,8 @@ function Form() {
               onChange={handleChange}
               placeholder="Enter your first name"
               value={formdata.first_name}
+              required
+              className="form-control"
             />
           </div>
           <div>
@@ -50,6 +65,8 @@ function Form() {
               onChange={handleChange}
               placeholder="Enter your last name"
               value={formdata.last_name}
+              required
+              className="form-control"
             />
           </div>
         </div>
@@ -62,6 +79,8 @@ function Form() {
             onChange={handleChange}
             placeholder="yourname@email.com"
             value={formdata.email}
+            required
+            className="form-control"
           />
 
           <label htmlFor="message">Message</label>
@@ -71,7 +90,10 @@ function Form() {
             onChange={handleChange}
             placeholder="Send me a message and I'll reply you as soon as possible..."
             value={formdata.message}
+            required
+            className="form-control"
           />
+          {/* {formdata.message === "" ? message : ""} */}
 
           <div className="user_check">
             <input
@@ -88,7 +110,11 @@ function Form() {
           </div>
         </div>
 
-        <input type="submit" value="Send Message" className="submit" />
+        <input
+          type="submit"
+          value="Send Message"
+          className="submit btn btn-primary"
+        />
       </form>
     </div>
   );
