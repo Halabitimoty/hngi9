@@ -74,6 +74,10 @@ textarea {
   border-radius: 8px;
 }
 
+textarea {
+  resize: vertical;
+}
+
 .submit {
   width: 100%;
   background: #1570ef;
