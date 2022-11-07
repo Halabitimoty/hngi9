@@ -48,7 +48,7 @@ function Form() {
             <input
               type="text"
               name="first_name"
-              id=""
+              id="first_name"
               onChange={handleChange}
               placeholder="Enter your first name"
               value={formdata.first_name}
@@ -61,7 +61,7 @@ function Form() {
             <input
               type="text"
               name="last_name"
-              id=""
+              id="last_name"
               onChange={handleChange}
               placeholder="Enter your last name"
               value={formdata.last_name}
@@ -75,7 +75,7 @@ function Form() {
           <input
             type="email"
             name="email"
-            id=""
+            id="email"
             onChange={handleChange}
             placeholder="yourname@email.com"
             value={formdata.email}
@@ -86,7 +86,7 @@ function Form() {
           <label htmlFor="message">Message</label>
           <textarea
             name="message"
-            id=""
+            id="message"
             onChange={handleChange}
             placeholder="Send me a message and I'll reply you as soon as possible..."
             value={formdata.message}
@@ -114,6 +114,7 @@ function Form() {
           type="submit"
           value="Send Message"
           className="submit btn btn-primary"
+          id="btn_submit"
         />
       </form>
     </div>
